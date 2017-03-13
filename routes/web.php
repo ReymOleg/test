@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::put('update', function() {
 	return 'update';
+});
+
+Route::get('/oleg', function () {
+    return view('welcome');
 });
