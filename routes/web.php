@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/oleg', function () {
     return view('welcome');
 });
+
+Route::put('update', function() {
+	return 'update';
+});
