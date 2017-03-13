@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 
+
 Route::put('update', function() {
 	return 'update';
 });
@@ -23,3 +24,12 @@ Route::put('update', function() {
 Route::get('/oleg', function () {
     return view('welcome');
 });
+
+Route::get('/oleg', function () {
+    return view('welcome');
+});
+
+Route::put('update', function() {
+	return 'update';
+});
+
